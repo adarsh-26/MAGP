@@ -1,0 +1,53 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-evenly;
+}
+.copyw{
+    width: 10px;
+    height: 10px;
+}
+.tfooter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #6E25A7;
+    color: white;
+    margin: -10px;
+    align-items: center;
+    gap: 20px;
+}
+h4{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+p{
+    font-size: 10px;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 850px) {
+    h4{
+        font-size: 6px;
+        font-weight: 300;
+    }
+    
+    p{
+        font-size: 5px;
+        font-weight: 100;
+    }
+    .copyw{
+        width: 6px;
+        height: 6px;
+    }
+
+    .footer{
+        padding-left: 50px;
+    padding-right: 50px;
+    }
+}
+
